@@ -39,7 +39,7 @@ Other Tools and Libraries: Axios, CORS, React Router, bcrypt.js
 Project Structure
 The project is divided into two main directories:
 
-frontend/: Contains the ReactJS-based user interface.
+
 backend/: Contains the Node.js-based API server and backend logic.
 
 
