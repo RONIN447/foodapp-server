@@ -43,21 +43,17 @@ frontend/: Contains the ReactJS-based user interface.
 backend/: Contains the Node.js-based API server and backend logic.
 
 
-Frontend:
+Backend:
 
-The frontend is built with ReactJS and handles the user interface, including user authentication, food browsing, add-to-cart functionality, and Stripe payment integration.
+The backend is built with Node.js and Express and handles API requests, user authentication, database interactions, and business logic.
 
-Usage (Frontend):
+Usage (Backend):
 
-Sign Up / Login: Create an account or log in with existing credentials.
+User Authentication: Secure authentication with JWT.
 
-Browse Food Items: View available food items on the homepage.
+API Endpoints: Access various API endpoints for managing users, orders, and payments.
 
-Add to Cart: Click "Add to Cart" to add items to your cart.
-
-Checkout: Go to the cart page, review your order, and proceed to payment using Stripe.
-
-Profile and Dashboard: View and update user profiles and access the dashboard for managing orders.
+Cross-Origin Requests: Ensure proper CORS configuration for secure cross-origin requests from the frontend.
 
 Contributing
 Contributions are welcome! If you'd like to enhance this project, please follow these steps:
